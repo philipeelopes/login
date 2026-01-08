@@ -1,0 +1,123 @@
+
+
+.container{
+  padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.section{
+    background: linear-gradient(120deg, rgba(43, 43, 43, 0.329), rgba(0, 0, 0, 0.589));
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 50%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.section h1{
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+form{
+padding-bottom: 30px;
+}
+
+.section input{
+    width: 420px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    background-color: #424258;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.section input:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #4f4f8d;
+  }
+
+input::placeholder{
+    color: #d1d1d1;
+  }
+
+section button{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    background-color: #4f4f8d;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+} 
+
+section button:hover{
+    background-color: #6a528a;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.userInfo{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+    color: #d1d1d1;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.589), rgba(43, 43, 43, 0.329));
+}
+
+.userInfo p {
+  color: white;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.userInfo span {
+  font-weight: normal;
+}
+
+.userInfo button{
+    width: 25%;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    background-color: #b33a3a;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.userInfo button:hover{
+    opacity: 0.4;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
