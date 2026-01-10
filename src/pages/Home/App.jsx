@@ -29,10 +29,10 @@ export default function App() {
       await api.post('/usuarios', {
         name: nameInputRef.current.value,
         email: emailInputRef.current.value,
-        age: ageInputRef.current.value
+        age: Number(ageInputRef.current.value)
       })
       getUsers()
-    } catch (erro) {
+    } catch (error) {
       console.warn('Erro ao criar usuário (backend offline):', error.message)
     }
   }
