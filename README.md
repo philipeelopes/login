@@ -1,16 +1,70 @@
-# React + Vite
+🧑‍💻 User Registration – Full Stack Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação full stack para cadastro e gerenciamento de usuários, desenvolvida com foco em boas práticas, arquitetura moderna e integração frontend + backend.
 
-Currently, two official plugins are available:
+O projeto permite criar, listar e remover usuários em tempo real, utilizando uma API própria e banco de dados em nuvem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Demo:
+https://philipeelopes.github.io/login
 
-## React Compiler
+🚀 Tecnologias Utilizadas
+Frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Axios
+
+CSS Modules
+
+GitHub Pages (deploy)
+
+Backend
+
+Node.js
+
+Express
+
+Prisma ORM
+
+MongoDB Atlas
+
+Render (deploy)
+
+CORS configurado para produção
+
+⚙️ Funcionalidades
+
+✅ Cadastro de usuários
+
+✅ Listagem de usuários em tempo real
+
+✅ Remoção de usuários
+
+✅ Integração frontend e backend via API REST
+
+✅ Deploy completo (frontend + backend)
+
+✅ Configuração de variáveis de ambiente
+
+✅ Tratamento de erros e CORS
+
+📌 Aprendizados
+
+Deploy de aplicações full stack
+
+Integração entre React e API REST
+
+Uso do Prisma com MongoDB
+
+Configuração de CORS para ambientes diferentes
+
+Variáveis de ambiente com Vite e Render
+
+👤 Autor
+
+Philipe Lopes
+Desenvolvedor Frontend | React | JavaScript | TypeScript
+
+🔗 GitHub: https://github.com/philipeelopes
